@@ -316,10 +316,7 @@ hr{
 		
 		
 		}
-	@media all and (max-width:500px){
-		body{
-			color: #ffe8a6;
-		}	}
+	
 	#education .box-container {
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -367,7 +364,7 @@ hr{
 		font-family: papyrus,sans-serif;
 		font-size: 2rem;
 		padding: 1rem 0;
-		color: #ff3b3b;
+		color: #ffffff;
 		padding-top: 3rem;
 		font-weight: normal;
 	  }
@@ -464,7 +461,7 @@ hr{
 	  
 	  #portfolio .box-container .box .content a:hover {
 		color: rgb(0, 0, 0);
-	  }	
+		}	
 	 
 	.contact{
 		min-height: 100vh;
@@ -508,14 +505,14 @@ hr{
 		margin-bottom: 20px;
 	}
 	.row_left_side a{
-		color: #fff;
+		color: rgb(255, 252, 95);
 		text-decoration: none;
 		cursor: pointer;
 	}
 	.row_left_side i{
 		display: flex;
 		padding: 30px 0;
-		color: #fa949d;;
+		color: #ebc932;;
 	}
 	.row_left_s	ide i span{
 		margin-left: 20px;
@@ -533,16 +530,16 @@ hr{
 		height: 40px;
 		text-align: center;
 		padding: 12px 10px 10px 13px;
-		color: rgb(14, 13, 13);
+		color: rgb(255, 255, 255);
 	}
 	.social_icon i:hover{
 		border-radius: 20px;
-		background-color: #fa949d;
-		color: #fff;
+			background-color: #fa949d;
+		color: rgb(0, 110, 255);
 	}
 	.semi_circle{
 		clip-path: circle(50.3% at 100% 100%);
-		background: #fa949d;
+		background: #e6c845;
 		position: absolute;
 		bottom: 0;
 		width: 400px;
@@ -551,7 +548,7 @@ hr{
 	}
 	.circle{
 		clip-path:circle(50% at 50% 50%);
-		background: #7e53f9;
+		background: #f39797;
 		opacity: 0.9;
 		position: absolute;
 		bottom: 68px;
