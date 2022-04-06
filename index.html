@@ -19,7 +19,7 @@
          
             <li class="n"><a href="#main">HOME</a></li>
             <li><a href="#about">About me</a></li>
-            <li><a href="#">Portfoilo</a></li>
+            <li><a href="portfolio">Portfoilo</a></li>
             <li><a href="#education">Eduaction</a></li>
             <li><a href="#">Contact me</a></li>
             <div class="enat"> <h1 ><span>Port</span>fo<span>ilo</span> </h1></div>
@@ -29,7 +29,7 @@
 
         <div class="animation start-home"></div>
     </nav>
-    <section class="home">
+    <section id="home">
 
         <div class="image">
             <img src="PIC1.jpg" alt="">
@@ -43,9 +43,7 @@
         </div>
     
     </section>
-<div class="middle">
-   
-</div>
+
 <section id="about">
    
     <div class="me">
@@ -62,9 +60,7 @@
 
 
 
-<div class="middle">
-   
-</div>
+
 <section id="education">
 
     <h1 class="heading"> <span class="head">My</span> Education </h1>
@@ -107,10 +103,7 @@
        
 
 </section>
-</div>
-<div class="middle">
-   
-</div>
+<hr style="width: 100%;"> 
 <section id="portfolio">
    
    
@@ -178,9 +171,8 @@
     <a href="#" class="btn"> load more <i class="fas fa-redo"></i> </a>
  
 </section>
-<div class="middle">
-   
-</div>
+<hr style="width: 100%;"> 
+
 <section class="contact">
     <h1>Contact Us</h1>
     <p>Any question or remarks? Just write us a message!</p>
@@ -232,23 +224,25 @@
     <div class="middle">
     </div>
 </section>
+<script>
+    window.onscroll = function() { 
+        if (window.pageYOffset >= ul.offsetTop) {
+        navpro.classList.add("sticky")
+      } else {
+         
+        navpro.classList.remove("sticky");
+      }};
+    
+    var navpro = document.getElementById("navpro");
+    var ul = document.getElementById("ul");
+    var sticky = navbar.offsetTop;
+    
+    
+    
+    </script>
 
 <script src="script.js"></script>
    
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var navpro = document.getElementById("navpro");
-        var ul = document.getElementById("ul");
-        
-        
-        function myFunction() {
-          if (window.pageYOffset >= menu.offsetTop) {
-            navpro.classList.add("sticky")
-          } else {
-            navpro.classList.remove("sticky");
-          }
-        }
-        </script>
+    
     </body>
 </html>  

@@ -5,13 +5,16 @@ font-family:'josefin sans',sans-serif;
 box-sizing: border-box;
 
 }
- .sticky {
+nav.sticky {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
-  z-index: 1;
+	 width: 100%; 
+   z-index: 1; 
 }
+.sticky + .home {
+	padding-top: 60px;
+  }
 
 #navpro{ 
 
@@ -42,13 +45,14 @@ list-style: none;
 }
 #navpro ul .enat{
     background-color:#1a1617;
+	height: 8vh;
 	color: rgb(138, 134, 134);
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	border-radius: 30px;
+	border-radius: 70vh;
 	transition: .4s; 
-    margin-top: --2vh;
+    margin-top: -2vh;
      margin-left: 120vh; 
     
      letter-spacing: 2px;
@@ -105,7 +109,39 @@ gap: 10px;
 	border: 2px solid #ffee03;
 	cursor: pointer;
 }
-.home {
+.btn {
+	height: 10vh;
+	display: inline-block;
+	margin-top: 1rem;
+	border-radius: 5rem;
+	background: crimson;
+	padding: .5rem;
+	font-size: 1.2rem;
+	color: #fff;
+	padding-left: 2rem;
+	text-decoration: none;
+  }
+  
+  .btn i {
+	
+	height: 4rem;
+	width: 4rem;
+	line-height: 4rem;
+	font-size: 1.7rem;
+	text-align: center;
+	background: #fff;
+	color: crimson;
+	border-radius: 50%;
+	margin-left: 1rem;
+	-webkit-transition: .2s linear;
+	transition: .2s linear;
+  }
+  
+  .btn:hover i {
+	margin-left: 2rem;
+  }
+  
+#home {
 	background-color: black;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -119,44 +155,46 @@ gap: 10px;
 	min-height: calc(100vh - 6.5rem);
   }
   
-  .home .image {
+  #home .image {
 	-webkit-box-flex: 1;
 		-ms-flex: 1 1 42rem;
 			flex: 1 1 42rem;
 	text-align: center;
   }
   
-  .home .image img {
-	height: 30rem;
-	width: 30rem;
+  #home .image img {
+	height: 60vh;
+	width: 70vh;
 	clip-path: circle();
   }
   
-  .home .content {
+  #home .content {
 	-webkit-box-flex: 1;
 		-ms-flex: 1 1 42rem;
 			flex: 1 1 42rem;
   }
   
-  .home .content h3 {
+  #home .content h3 {
 	color: #fff;
-	font-size: 4rem;
+	font-size: 8vh;
 	padding-bottom: .5rem;
   }
   
-  .home .content span {
-	font-size: 3rem;
+  #home .content span {
+	font-size: 6vh;
 	color: crimson;
 	padding: .5rem 0;
 	display: block;
   }
+
   
-  .home .content p {
+  #home .content p {
 	font-size: 1.5rem;
 	color: #aaa;
 	padding: 1rem 0;
 	line-height: 2;
   }
+ 
   
 .head{
 
@@ -176,7 +214,7 @@ justify-content: center;
 	width: 100%;
 	margin: 1px 0px;
 	padding: 100px 0px;
-	background-color: #382b2b;
+	background-color: #000000;
 }
 #about img{
 	height: auto;
@@ -273,7 +311,7 @@ hr{
 			color: white;
 		}
 		#education{
-			background-color: #191919;
+			background-color: #000000;
 			
 		
 		
