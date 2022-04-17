@@ -17,11 +17,12 @@
         <ul id="ul">
            
          
-            <li class="n"><a href="#main">HOME</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="portfolio">Portfoilo</a></li>
-            <li><a href="#education">Eduaction</a></li>
-            <li><a href="#">Contact me</a></li>
+            <li style="margin-left: 1vh; "><a href="#main">HOME</a></li>
+            <li style="margin-left: 1vh; "><a href="#about">AboutMe</a></li>
+            <li style="margin-left: 1vh; "><a href="#education">Eduaction</a></li>
+            <li style="margin-left: 1vh;"><a href="portfolio">MyWork</a></li>
+           
+            <li style="margin-left: 1vh;" ><a href="#">ContactMe</a></li>
             <div class="enat"> <h1 ><span>Port</span>fo<span>ilo</span> </h1></div>
 
         </ul>
@@ -38,33 +39,35 @@
         <div class="content">
             <h3>Hi, i am Dawit Nigus</h3>
             <span>front-end developer</span>
-            <p style="color: rgb(255, 202, 55);"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatem doloremque ipsum fugit natus laudantium quos? Voluptates quas, deleniti, at iusto quibusdam a, commodi repellat praesentium delectus autem eligendi molestias.</p>
-            <a href="#" class="btn"> about me <i class="fas fa-user"></i> </a>
+            <p style="color: rgb(0, 0, 0); font-style: italic; font-weight:400 ; "> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatem doloremque ipsum fugit natus laudantium quos? Voluptates quas, deleniti, at iusto quibusdam a, commodi repellat praesentium delectus autem eligendi molestias.</p>
+            <a href="#about" class="btn"> about me <i class="fas fa-user"></i> </a>
         </div>
     
     </section>
-
+    <div class="middle">
+    </div>
 <section id="about">
-   
+ 
     <div class="me">
         <img src="p.jpg">
         <div class="about-text">
-            <h2>About Me</h2>
-            <hr style="margin-right:30vh; margin-top: -5vh;"><br><br>
+            <h2>About <span style="color: black;">Me</span> </h2>
+            <hr style="margin-right:30vh; margin-top: -5vh; color: black;"><br><br>
             <h5>Developer <span>& Designer</span></h5>
             <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
-            <button type="button">Let's Talk</button>
+            <a href="#contact" class="btn"> Let's Talk me <i class="fas fa-user"></i> </a>
         </div>
     </div>
 </section>
 
-
+<div class="middle">
+</div>
 
 
 <section id="education">
 
     <h1 class="heading"> <span class="head">My</span> Education </h1>
-<hr style="margin-left:50vh ; margin-right: 40vh;">
+<hr style="margin-left:50vh ; margin-right: 40vh; color: rgb(255, 115, 0);">
     <br>
 <br>
 <br>
@@ -103,11 +106,14 @@
        
 
 </section>
+<div class="middle">
+</div>
+
 <hr style="width: 100%;"> 
 <section id="portfolio">
    
    
-    <h1 class="heading"> <span>My</span> Work </h1>
+    <h1 class="heading"> <span style="color: black;">My</span> Work </h1>
     <hr style="color: white;margin-left: 95vh; margin-right: 75vh;">
     <br><br><br>
     <div class="box-container">
@@ -117,7 +123,7 @@
             <div class="content">
                 <h3>project 01</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
-                <a href="#">read more</a>
+                <a href="#about" class="btn"> read me <i class="fas fa-user"></i> </a>
             </div>
         </div>
 
@@ -126,7 +132,7 @@
             <div class="content">
                 <h3>project 02</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
-                <a href="#">read more</a>
+                <a href="#about" class="btn"> read me <i class="fas fa-user"></i> </a>
             </div>
         </div>
        
@@ -138,43 +144,27 @@
                 <a href="#">read more</a>
             </div>
         </div>
-
+<!-- 
         <div class="box">
             <img src="h4.jpg" alt="">
             <div class="content">
                 <h3>project 04</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
-                <a href="#">read more</a>
+                <a href="#about" class="btn"> read me <i class="fas fa-user"></i> </a>
             </div>
-        </div>
-<!-- 
-        <div class="box">
-            <img src="images/img-5.jpg" alt="">
-            <div class="content">
-                <h3>project 05</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
-                <a href="#">read more</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="images/img-6.jpg" alt="">
-            <div class="content">
-                <h3>project 06</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
-                <a href="#">read more</a>
-            </div> -->
-        </div>
+        </div> -->
 
     </div>
 
     <a href="#" class="btn"> load more <i class="fas fa-redo"></i> </a>
  
 </section>
-<hr style="width: 100%;"> 
+<div class="middle">
+</div>
 
-<section class="contact">
-    <h1>Contact Us</h1>
+
+<section id="contact">
+    <h1 style="font-size: 9vh;">Contact <span style="color: red;">Us</span></h1>
     <p>Any question or remarks? Just write us a message!</p>
     <div class="container">
         <div class="row_left_side">
@@ -186,7 +176,7 @@
             <a href="kingodawit@gmail.com"><i class="far fa-envelope"><span>kingodawit@gmail.com</span></i></a>
             <a href=""><i class="fas fa-map-marker-alt"><span>Ethiopia:Bishoftu</span></i></a>
             <div class="social_icon">
-                <a href="/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                 <a href="/"><i class="fab fa-instagram"></i></a>
                 <a href="/"><i class="fab fa-twitter"></i></a>
                 <a href="/"><i class="fab fa-linkedin-in"></i></a>
@@ -221,27 +211,14 @@
             </form>
         </div>
     </div>
-    <div class="middle">
-    </div>
+    
 </section>
-<script>
-    window.onscroll = function() { 
-        if (window.pageYOffset >= ul.offsetTop) {
-        navpro.classList.add("sticky")
-      } else {
-         
-        navpro.classList.remove("sticky");
-      }};
-    
-    var navpro = document.getElementById("navpro");
-    var ul = document.getElementById("ul");
-    var sticky = navbar.offsetTop;
-    
-    
-    
-    </script>
-
+<div class="middle">
+</div>
 <script src="script.js"></script>
+
+
+
    
     
     </body>
